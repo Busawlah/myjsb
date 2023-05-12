@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Assignment</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Varela+Round&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="idcard">
+        <div id="first">
+            <h3 id="heading">My Biography</h3>
+        </div>
+        <div id="second">
+            <div id="img">
+                <img src="bees.JPG" id="mypic" alt="my picture">
+            </div>
+            <div id="writeup">
+                <p>
+                    Hi there! My name is Adebusola adewale. I am a graduate of Geology from the University of Ilorin. This is mini website of mine and I'll be telling you a bit about me here. Without further ado, lets get to it!
+                </p>
+                <p>
+                    I'm an aspiring software developer, precisely backend. I'll almost say my relationship with software development is toxic because as much as I am so Interested in it, it doesn't come easy enough for me to learn, I've come to realise that it takes time, efforts, grit, hardwork and perseverance. I have tried self learning for a while and I had too many unanswered questions. I spoke to a friend about it and he introduced TIIDELab to me. The experience so far has been wonderful although it has not been easy considering I am combining the classes with work schedule. I was class governor once, was nominated for governorship 3 times in a row and I loved every feeling that came with each win. Grateful for my baby steps and I believe i'll come out victorious. 
+                </p>
+                <p id="change">
+                    At TIIDELab, I am currently learning HTML and CSS. 
+                </p>
+                <button type="button" class="btn" id="btn" onclick="change()">Update Me!</button>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" language="javascript">
+        function change (){
+            document.getElementById("change").innerHTML= "Now I am currently learning JavaScript."
+        }
+    </script>
+</body>
+</html>
